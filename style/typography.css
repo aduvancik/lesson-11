@@ -4,24 +4,25 @@
   line-height: 28px;
 }
 .list li:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 .bth {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .bth:hover {
   color: rgb(47, 40, 30);
 }
 
-.weight-bold, .weight-bold h3 {
+.weight-bold,
+.weight-bold h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: #2F281E;
+  color: #2f281e;
 }
 
 .wrapper {
@@ -29,7 +30,7 @@
 }
 
 .header__list_yellow {
-  color: #FF9900;
+  color: #ff9900;
 }
 .header .header__buttons {
   display: flex;
@@ -47,18 +48,18 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 
 .design__title h3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  color: #2F281E;
+  color: #2f281e;
 }
 .design__title-c h4 {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
-  color: #2F281E;
+  color: #2f281e;
 }/*# sourceMappingURL=typography.css.map */
