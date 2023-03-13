@@ -1,0 +1,136 @@
+.bth, button {
+  display: inline-block;
+  background-color: rgb(255, 153, 0);
+  padding: 13px 22.5px 13px 22.5px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.bth:hover, button:hover {
+  border: 1px solid #BCD0E5;
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0 0 70px 0;
+}
+
+.header {
+  padding: 17px 0;
+}
+.header__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__list ul {
+  display: flex;
+  gap: 20px;
+}
+.header__buttons {
+  display: flex;
+  gap: 32px;
+}
+.header__bth {
+  border: 1px rgb(255, 153, 0) solid;
+}
+.header__bth_white {
+  border: 1px solid #BCD0E5;
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+hr {
+  background: rgba(188, 208, 229, 0.496913);
+  height: 1px;
+}
+
+.footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 140px;
+  padding: 70px 60px 0px 0.5px;
+}
+.footer__list {
+  display: flex;
+  gap: 147px;
+}
+.footer__column {
+  display: flex;
+  margin-left: -10px;
+  flex-direction: column;
+  gap: 15px;
+  width: 135px;
+}
+.footer__column:first-child {
+  gap: 30px;
+}
+.footer__input-bth-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer__text {
+  width: 280px;
+}
+.footer__input {
+  width: 340px;
+  height: 50px;
+  border: 1px solid #BCD0E5;
+}
+.footer__input input {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+}
+.footer__bth {
+  padding: 13px 33.5px;
+  width: 180px;
+  height: 50px;
+}
+.footer__bth p {
+  display: inline-block;
+}
+
+.design {
+  margin: 100px 0px 30px 0px;
+}
+.design__columns-block {
+  background: url(./img/fon/bg.png) 0/cover no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 75px 0px;
+}
+.design__title h3 {
+  text-align: center;
+  width: 539px;
+  margin: 0px auto 30.77px auto;
+}
+.design__title-c {
+  margin: 30px 0 16px 0;
+}
+.design__columns {
+  display: flex;
+  margin: 0px auto;
+  width: 1200px;
+  gap: 45px;
+  padding: 20px 0px 0px 0px;
+}
+.design__column {
+  width: 270px;
+}
+.design__bth {
+  margin: 70px auto 0 auto;
+}/*# sourceMappingURL=style.css.map */
